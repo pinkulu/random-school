@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7a4caf;
+    color: white;
+    text-align: center;
+}
+
+.table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+    background-color: #44474b;
+}
+
+.table td {
+    padding: 8px;
+    text-align: center;
+    width: 25%;
+}
+
+.variants {
+    padding: 2px;
+}
